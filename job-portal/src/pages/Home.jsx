@@ -22,7 +22,7 @@ const Home = () => {
       });
   }, []);
 
-  // ----------- Input Filter -----------
+  
   const [query, setQuery] = useState("");
 
   const handleInputChange = (event) => {
@@ -34,10 +34,10 @@ const Home = () => {
   );
 
 
-  // ----------- Radio Filtering -----------
+  
   const handleChange = (event) => {
     setSelectedCategory(event.target.value);
-    // console.log(event.target.value);
+    
   };
 
   // ------------ Button Filtering -----------
