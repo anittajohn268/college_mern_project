@@ -12,7 +12,6 @@ const MyJobs = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 4;
 
-  // console.log(control)
   useEffect(() => {
     setIsLoading(true);
     fetch(`http://localhost:3000/myJobs/${user?.email}`)
